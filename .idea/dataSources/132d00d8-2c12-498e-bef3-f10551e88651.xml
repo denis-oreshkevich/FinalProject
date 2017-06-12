@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="social_network@localhost [2]">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="social_network">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="books"/>
+    <schema id="4" parent="1" name="countries"/>
+    <schema id="5" parent="1" name="hero"/>
+    <schema id="6" parent="1" name="hr"/>
+    <schema id="7" parent="1" name="information_schema"/>
+    <schema id="8" parent="1" name="message"/>
+    <schema id="9" parent="1" name="music_store"/>
+    <schema id="10" parent="1" name="mydb"/>
+    <schema id="11" parent="1" name="mysql"/>
+    <schema id="12" parent="1" name="painting"/>
+    <schema id="13" parent="1" name="performance_schema"/>
+    <schema id="14" parent="1" name="restaurant_business"/>
+    <schema id="15" parent="1" name="store"/>
+    <schema id="16" parent="1" name="sys"/>
+  </database-model>
+</dataSource>

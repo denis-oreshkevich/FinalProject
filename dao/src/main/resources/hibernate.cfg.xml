@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-configuration SYSTEM "http://www.hibernate.org/xsd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/transport_park</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">root</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+
+        <mapping class="entity.implementation.User"/>
+        <mapping class="entity.implementation.Car"/>
+        <mapping class="entity.implementation.FuelCharacteristic"/>
+        <mapping class="entity.implementation.Mark"/>
+        <mapping class="entity.implementation.OrderForRent"/>
+        <mapping class="entity.implementation.Seat"/>
+        <mapping class="entity.implementation.Truck"/>
+        <mapping class="entity.implementation.Bus"/>
+        <mapping class="entity.implementation.Transport"/>
+
+
+    </session-factory>
+</hibernate-configuration>
