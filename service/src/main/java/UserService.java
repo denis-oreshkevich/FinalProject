@@ -1,4 +1,4 @@
-import entity.User;
+import entity.implementation.User;
 
 import java.util.Optional;
 
